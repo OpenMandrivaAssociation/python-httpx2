@@ -1,6 +1,6 @@
 Name:		python-httpx2
 Version:	2.13.1
-Release:	1
+Release:	2
 Summary:	The next generation HTTP client
 License:	BSD-3-Clause
 Group:		Development/Python
@@ -13,7 +13,7 @@ Patch0:		httpx2-static-version.patch
 BuildArch:	noarch
 BuildSystem:	python
 BuildRequires:	python
-BuildRequires:	pkgconfig(python)
+BuildRequires:	pkgconfig(python3)
 BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	python%{pyver}dist(hatchling)
 
